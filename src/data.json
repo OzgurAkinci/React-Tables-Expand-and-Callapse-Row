@@ -1,0 +1,104 @@
+{
+  "id": 7008339,
+  "jMessageList": [{
+    "id": 7008572,
+    "message": {
+      "id": 13,
+      "message": "J1.4",
+      "messageTitle": "Communicant Status Message"
+    },
+    "transmitCapability": "T",
+    "receiveCapability": "R",
+    "jWordMessageList": [{
+      "id": 7008805,
+      "wordMessage": {
+        "id": 35,
+        "message": "I",
+        "messageTitle": "INITIAL WORD"
+      },
+      "transmitCapability": "T",
+      "receiveCapability": "R",
+      "jMessageDetailList": [{
+        "id": 7009038,
+        "messageWordMap": [{
+          "id" : 543,
+          "dui": {
+            "id": 1550001,
+            "duiNumber": 1550001,
+            "duiName": "WORD FORMAT",
+            "dfi": {
+              "id": 1550,
+              "dfiNumber" : "1550",
+              "dfiName": "WORD FORMAT",
+              "enumList": [{
+                "id": 7143994,
+                "enumName": "UNDEFINED",
+                "enumValue": "3",
+                "bdiDfiEnum": {
+                  "id": 1,
+                  "transmitCapability": "T",
+                  "receiveCapability": "R"
+                }
+              }]
+            }
+          }
+        }]
+      }]
+    }]
+  },
+    {
+      "id": 7008573,
+      "message": {
+        "id": 13,
+        "message": "J1.5",
+        "messageTitle": "Test Message"
+      },
+      "transmitCapability": "NT",
+      "receiveCapability": "R",
+      "jWordMessageList": [{
+        "id": 7008809,
+        "wordMessage": {
+          "id": 36,
+          "message": "I",
+          "messageTitle": "COMMUNICANT STATUS INITIAL WORD"
+        },
+        "transmitCapability": "T",
+        "receiveCapability": "R",
+        "jMessageDetailList": [{
+          "id": 7009038,
+          "messageWordMap": [{
+            "id" : 543,
+            "dui": {
+              "id": 1550001,
+              "duiNumber": 1550001,
+              "duiName": "TEST FORMAT",
+              "dfi": {
+                "id": 1550,
+                "dfiNumber" : "1550",
+                "dfiName": "TEST FORMAT",
+                "enumList": [{
+                  "id": 7143995,
+                  "enumName": "ENUM1",
+                  "enumValue": "3",
+                  "bdiDfiEnum": {
+                    "id": 1,
+                    "transmitCapability": "T",
+                    "receiveCapability": "R"
+                  }
+                },{
+                  "id": 7143996,
+                  "enumName": "ENUM2",
+                  "enumValue": "3",
+                  "bdiDfiEnum": {
+                    "id": 1,
+                    "transmitCapability": "T",
+                    "receiveCapability": "R"
+                  }
+                }]
+              }
+            }
+          }]
+        }]
+      }]
+    }]
+}

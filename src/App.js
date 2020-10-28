@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-bootstrap-table/css/react-bootstrap-table.css';
 import './App.css';
+import React from "react";
+import MessagesAntd from "./pages/MessagesAntd";
+import Messages from "./pages/Messages";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <div class="col-lg-6 ant-col-lg-offset-5">
+            <div class="col-lg-12">
+                <MessagesAntd />
+            </div>
+            <div className="col-lg-12">
+                <Messages/>
+            </div>
+        </div>
     </div>
   );
 }
